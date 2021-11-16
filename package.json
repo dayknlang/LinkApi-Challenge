@@ -1,20 +1,29 @@
 {
-  "name": "LinkApi-Challenge",
+  "name": "challengelinkapi",
   "version": "1.0.0",
-  "description": "Desafio técnico para a empresa LinApi para a vaga Desenvolvedora Backend Jr.",
-  "main": "index.js",
+  "description": "Desafio técnico para a empresa LinkApi.",
+  "main": "app.js",
   "dependencies": {
+    "async": "^3.2.2",
     "axios": "^0.24.0",
     "body-parser": "^1.19.0",
+    "cnpj": "^4.0.1",
     "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "dealdb": "0.0.1-security",
     "express": "^4.17.1",
     "mongoose": "^6.0.13",
-    "mongosh": "^1.1.2"
+    "mongosh": "^1.1.2",
+    "nodemon": "^2.0.15",
+    "parser": "^0.1.4",
+    "xml": "^1.0.1",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"
   },
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +31,7 @@
     "url": "git+https://github.com/dayknlang/LinkApi-Challenge.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dayane Lang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dayknlang/LinkApi-Challenge/issues"
