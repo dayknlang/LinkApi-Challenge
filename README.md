@@ -11,22 +11,21 @@ O desafio contém os seguintes requisitos:
  4.Criar uma collection no banco de dados MongoDB agregando as oportunidades inseridas no Bling por dia e valor total.
  5.Criar um Endpoint para trazer os dados consolidados da collection do MongoDB.
 
-
-
-bling.com.br/Api/v2 </br>
-https://api.pipedrive.com/v1 </br>
-https://urldele.pipedrive.com/settings/api </br>
-
-https://developers.linkapi.solutions/docs/bling
-
-</br>
-
-
 --------------------------------------
-SEQUENCIA PARA CRIAR O PROJETO
+SEQUÊNCIA PARA CRIAR O PROJETO
 --------------------------------------
-Criar o arquivo package
-npm init
+
+.Primeiramente, faça o clone do repositório 
+git clone https:
+
+.Em seguinda, direcione para a pasta da aplicação:
+cd 
+
+.Criar o arquivo package
+npm init -y
+
+.Criar o arquivo .env com as chaves de acesso
+mkdir .env
 
 //Gerencia as requisições, rotas e URLs, entre outra funcionalidades
 npm install express
@@ -50,6 +49,7 @@ COMO RODAR O PROJETO BAIXADO
 //Instalar todas as dependencias indicada pelo package.json
 npm install
 
-//Rodar o projeto usando o nodemon 
+//Rodar o projeto usando o Nodemon 
+nodemon app.js
 
 
