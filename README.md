@@ -1,5 +1,17 @@
-# LinkApi-Challenge
-Desafio técnico para a empresa LinApi para a vaga Desenvolvedora Backend Jr.
+# LinkApi-Challenge </br>
+
+Desafio técnico para a empresa LinkApi referente ao processo seletivo para vagas de nível Jr.</br>
+
+A aplicação é uma Api REST desenvolvida para o desefio da LinkApi solutions que tem como objetivo a integração entre o Pipedrive, que é uma plataforma CRM criada para facilitar a gestão de vendas de uma empresa, e o Bling, que é um sistema de gestão(ERP) para a micro e pequena empresa. 
+O desafio contém os seguintes requisitos:
+
+ 1. Criar contas testes nas plataformas Pipedrive e Bling.
+ 2. Criar uma integração entre as plataformas Pipedrive e Bling. (A integração deve buscar as oportunidades com status igual a ganho no Pipedrive, depois inseri-las como pedido no Bling).
+ 3.Criar banco de dados mongo  (existem serviços como MongoDB Atlas para criar de graça);
+ 4.Criar uma collection no banco de dados MongoDB agregando as oportunidades inseridas no Bling por dia e valor total.
+ 5.Criar um Endpoint para trazer os dados consolidados da collection do MongoDB.
+
+
 
 bling.com.br/Api/v2 </br>
 https://api.pipedrive.com/v1 </br>
