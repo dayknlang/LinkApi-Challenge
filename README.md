@@ -39,4 +39,5 @@ COMO RODAR O PROJETO BAIXADO
 npm install
 
 //Rodar o projeto usando o nodemon 
-nodemon app.js
+
+
