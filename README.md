@@ -78,7 +78,7 @@ nodemon app.js<br/>
   - https://developers.linkapi.solutions/docs/pipedrive <br/>
   - https://developers.linkapi.solutions/docs/bling <br/>
   - https://pt.stackoverflow.com/ <br/>
-  - https://www.npmjs.com/package/react-responsive-carousel <br/>
+  - https://docs.npmjs.com/cli/v8/commands/npm-install <br/>
   - https://www.mongodb.com/ <br/>
   - https://www.pipedrive.com/pt <br/>
   - https://www.bling.com.br/ <br/>
