@@ -27,4 +27,4 @@ const setSchema = new Schema({
      
 });
 
-mongoose.model('Set', setSchema);
+mongoose.model('SetSchema', setSchema);
