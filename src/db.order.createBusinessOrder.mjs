@@ -17,9 +17,12 @@ db.order.createBusinessOrder([
   },
 ]);
 
+// Run a find command to view items sold on November 15th, 2021.
+db.order.find({ date: { $gte: new Date('2020-11-15'), $lt: new Date('2021-11-16') } });
 
 // Build an aggregation to view total sales for each product category.
 const aggregation = [
+  { $match: { date: { $gte: new Date('2020-01-01'), $lt: new Date('2021-12-31') } } },
   { $group: { _id: '$item', totalSaleAmount: { $sum: { $multiply: [ '$price', '$quantity'
           ]
         }
