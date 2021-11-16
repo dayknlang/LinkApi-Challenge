@@ -1,5 +1,8 @@
 # LinkApi-Challenge </br>
 
+![image](https://user-images.githubusercontent.com/77943169/141980693-7bbcac8f-1933-4d29-a087-8f2cc58fb381.png)
+
+
 ##### Desafio técnico para a empresa LinkApi referente ao processo seletivo para vagas de nível Jr.</br>
 
 A aplicação é uma Api REST desenvolvida para o desefio da LinkApi solutions que tem como objetivo a integração entre o Pipedrive, que é uma plataforma CRM criada para facilitar a gestão de vendas de uma empresa, e o Bling, que é um sistema de gestão(ERP) para a micro e pequena empresa. 
